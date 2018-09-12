@@ -1,1 +1,1 @@
-/home/juro/Public/BibleQuiz-src/README.md
+README.md
