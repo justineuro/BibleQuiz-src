@@ -1,4 +1,4 @@
-## <img alt="BQ Logo" src="BQ-2.png" style="margin-bottom: -5px" height="40" width="51" valign="bottom"></img>**BibleQuiz**
+## <img alt="BQ Logo" src="BQ-2.png" style="margin-bottom: -5px" height="40" width="51" valign="bottom"/>**BibleQuiz**
 
 [**BibleQuiz**](https://justineuro.github.io) is meant as a question-and-answer familiarizer of Holy Scriptures.  This repository contains the `src` folder that was used for generating the Android app using [Android Studio](https://developer.android.com/studio/index.html).
 
