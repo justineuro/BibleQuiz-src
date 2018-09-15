@@ -1,4 +1,4 @@
-package com.example.juro.biblequiz01;
+package com.example.juro.biblequiz02;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

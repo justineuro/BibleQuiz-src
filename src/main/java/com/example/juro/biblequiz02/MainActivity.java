@@ -1,4 +1,4 @@
-package com.example.juro.biblequiz01;
+package com.example.juro.biblequiz02;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
