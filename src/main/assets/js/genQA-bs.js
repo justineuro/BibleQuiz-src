@@ -29,9 +29,14 @@ function genA(ind,data) {
 	qn = i + 1;
 	var question = dat[i][0];
 	var answer = dat[i][1];
-	/* check for additional clicks on Answer; re-create Answer link: drop 1 from i and 
+	/* check for additional clicks on Answer; re-create Answer link;  
 	 * remove i++ on 1st click */
-	if (document.getElementById("question").innerHTML == '<a id="qlabel" href="#"><b><u>Question</u>:</b></a><br>' + '<b>' + qn + '. </b>' +  question) {
-		document.getElementById("answer").innerHTML = '<a id="alabel" href="#" onclick="genA(i-1,dat)"><b><u>Answer</u>:</b></a><br>' + answer;
+	if (document.getElementById("question").innerHTML.includes(question)) {// print answer for currently displayed question only
+		document.getElementById("answer").innerHTML = '<a id="alabel" href="#" onclick="genA(i,dat)"><b><u>Answer</u>:</b></a><br>' + answer;
+	}
+	else {// decrease incremented question number by 1 and re-create page of previous question; not really needed but used for debugging
+		qn = qn - 1;
+		i = qn;
+		genQ(i,dat);
 	}
 }
